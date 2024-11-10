@@ -127,7 +127,7 @@ The OpenWeatherMap API responds with data in the following format:
 
 ## Author
 - Archana Patel
-- GitHub: [@2016archna](https://github.com/2016archana)
+- GitHub: [@2016archana](https://github.com/2016archana)
 
 ## License
 This project is open-source and available under the MIT License.
