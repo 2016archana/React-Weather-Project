@@ -1,0 +1,26 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6ea2ff 0%, #a6c1ff 50%, #f0f4ff 100%);
+}
+
+/* Center the app content */
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, #6ea2ff 0%, #a6c1ff 50%, #f0f4ff 100%);
+}
+
+/* Container for the content */
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}

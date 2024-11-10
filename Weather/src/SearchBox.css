@@ -1,0 +1,205 @@
+.SearchBox {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6ea2ff 0%, #a6c1ff 50%, #f0f4ff 100%);
+  padding: 2rem;
+  transition: background 0.5s ease;
+}
+
+/* Form container */
+.SearchBox form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.SearchBox h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Autocomplete and TextField Styling */
+.MuiAutocomplete-root {
+  width: 100% !important;
+}
+
+.MuiTextField-root {
+  width: 100% !important;
+}
+
+/* Input Field Styling */
+.MuiOutlinedInput-root {
+  background: white !important;
+  transition: all 0.3s ease !important;
+}
+
+.MuiOutlinedInput-root:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Label Styling */
+.MuiInputLabel-root {
+  font-size: 1.1rem !important;
+  color: #666 !important;
+}
+
+/* Search Button Styling */
+.MuiButton-contained {
+  background-color: #3498db !important;
+  padding: 10px 30px !important;
+  font-size: 1.1rem !important;
+  text-transform: none !important;
+  transition: all 0.3s ease !important;
+  margin-top: 1rem !important;
+}
+
+.MuiButton-contained:hover {
+  background-color: #2980b9 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(52, 152, 219, 0.2) !important;
+}
+
+/* Error Message Styling */
+.error-content {
+  background: #ff9999;
+  border: 2px solid #cc0000;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(204, 0, 0, 0.2);
+}
+
+.error-title {
+  color: #800000;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.error-suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #660000;
+  font-weight: 500;
+}
+
+.error-suggestions li {
+  margin: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.error-suggestions li::before {
+  content: "•";
+  position: absolute;
+  left: 0.5rem;
+  color: #800000;
+  font-weight: bold;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .SearchBox form {
+    background: #1a1a2e;
+  }
+
+  .SearchBox h1 {
+    color: white;
+  }
+
+  .MuiOutlinedInput-root {
+    background: rgba(255, 255, 255, 0.05) !important;
+  }
+
+  .MuiInputLabel-root {
+    color: #bdc3c7 !important;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+  }
+
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #3498db !important;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .SearchBox {
+    padding: 1rem;
+  }
+
+  .SearchBox h1 {
+    font-size: 2rem;
+  }
+
+  .SearchBox form {
+    padding: 1.5rem;
+  }
+
+  .MuiInputLabel-root {
+    font-size: 1rem !important;
+  }
+
+  .MuiButton-contained {
+    padding: 8px 24px !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* Add these new weather-based background classes */
+.SearchBox.clear-sky {
+  background: linear-gradient(135deg, #4da0ff 0%, #87cefa 50%, #b0e2ff 100%);
+}
+
+.SearchBox.clouds {
+  background: linear-gradient(135deg, #6b7280 0%, #9ca3af 50%, #d1d5db 100%);
+}
+
+.SearchBox.rain {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
+}
+
+.SearchBox.snow {
+  background: linear-gradient(135deg, #e2e8f0 0%, #f1f5f9 50%, #ffffff 100%);
+}
+
+.SearchBox.thunderstorm {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #3730a3 100%);
+}
+
+.SearchBox.mist {
+  background: linear-gradient(135deg, #94a3b8 0%, #cbd5e1 50%, #e2e8f0 100%);
+}
+
+/* Night time variations (when applicable) */
+.SearchBox.night.clear-sky {
+  background: linear-gradient(135deg, #0c4a6e 0%, #075985 50%, #0369a1 100%);
+}
+
+.SearchBox.night.clouds {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
+}
