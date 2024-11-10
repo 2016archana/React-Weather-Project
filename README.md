@@ -37,14 +37,14 @@ npm install
 - Create a `.env` file in the root directory.
 - Add your OpenWeatherMap API key to the file:
 ```bash
-REACT_APP_API_KEY=your_api_key_here
+VITE_API_KEY=your_api_key_here
 ```
 
 ### 5. Start the Development Server
 ```bash
-npm start
+npm run dev
 ```
-The application should now be running on http://localhost:3000.
+The application should now be running on http://localhost:5173.
 
 ## How to Get an API Key
 1. Go to [OpenWeatherMap](https://openweathermap.org/).
@@ -62,26 +62,16 @@ The application should now be running on http://localhost:3000.
 ## Project Structure
 ```
 React-Weather-Project/
-  ├── node_modules/                 # Dependencies
-  ├── public/
-  │   ├── index.html                # HTML template
-  │   ├── favicon.ico               # Favicon
-  │   └── manifest.json             # App configuration
-  ├── src/
-  │   ├── components/               # React components
-  │   │   ├── Weather.js            # Displays current weather
-  │   │   ├── Search.js             # Handles city search
-  │   │   └── WeatherCard.js        # Card for displaying weather data
-  │   ├── styles/                   # Styling
-  │   │   └── style.css             # CSS styles
-  │   ├── App.js                    # Main application component
-  │   ├── index.js                  # Entry point of the app
-  │   └── App.css                   # Additional styling for App
-  ├── .env                          # Environment variables (API key)
-  ├── .gitignore                    # Git ignore file
-  ├── package.json                  # Project metadata and dependencies
-  ├── package-lock.json             # Dependency lock file
-  └── README.md                     # Project documentation
+  ├── Weather/                    # Main application folder
+  │   ├── src/                    # Source files
+  │   │   ├── App.jsx            # Main application component
+  │   │   ├── SearchBox.jsx      # Search functionality
+  │   │   ├── WeatherInfo.jsx    # Weather information display
+  │   │   └── InfoCard.jsx       # Information card component
+  │   ├── public/                # Public assets
+  │   ├── .env                   # Environment variables
+  │   └── package.json           # Project dependencies
+  └── README.md                  # Project documentation
 ```
 
 ## Key Features Explained
