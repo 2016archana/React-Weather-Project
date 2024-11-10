@@ -7,4 +7,4 @@
    ```
    REACT_APP_WEATHER_API_KEY=your_api_key_here
    ```
-5. Run `npm start` to start the development server 
+5. Run `npm start` to start the development server "# React-Weather-Project" 
