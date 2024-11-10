@@ -20,7 +20,7 @@ Follow these steps to run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/2016archna/React-Weather-Project.git
+git clone https://github.com/2016archana/React-Weather-Project.git
 ```
 
 ### 2. Navigate to the Project Directory
@@ -112,8 +112,8 @@ The OpenWeatherMap API responds with data in the following format:
 ```
 
 ## Author
-- Archna Patel
-- GitHub: [@2016archna](https://github.com/2016archna)
+- Archana Patel
+- GitHub: [@2016archna](https://github.com/2016archana)
 
 ## License
 This project is open-source and available under the MIT License.
