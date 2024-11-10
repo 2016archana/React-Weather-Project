@@ -1,15 +1,29 @@
-# React Weather Project
+# 🌤️ Weather App
 
-🌤️ Weather App A sleek and responsive weather application that provides users with up-to-date weather information for cities worldwide. Built with React, Vite, and Material-UI, this app combines intuitive design with powerful functionality, delivering weather details in real time.
+A sleek and responsive weather application that provides users with up-to-date weather information for cities worldwide. Built with React, Vite, and Material-UI, this app combines intuitive design with powerful functionality, delivering weather details in real-time.
 
-🌟 Features
--🌍 Real-Time Weather Information Current Temperature displayed in an easy-to-read format. Humidity, Wind Speed, and Weather Conditions for detailed weather insights. City Search Functionality allowing you to check weather details globally.
+---
 
--📱 Responsive Design Fully optimized for Desktop, Tablet, and Mobile Devices for seamless use across platforms.
+## 🌟 Features
 
-🛠️ Technologies Used React 18 - A fast, component-based JavaScript library for building user interfaces.
--Vite - A rapid development build tool that ensures fast loading times.
--Material-UI - A design library providing stylish, responsive components. OpenWeather API - Powers the app with accurate and real-time weather data. 
+- 🌍 **Real-Time Weather Information**  
+  - Current Temperature displayed in an easy-to-read format.
+  - Humidity, Wind Speed, and Weather Conditions for detailed weather insights.
+  - City Search Functionality allowing you to check weather details globally.
+
+- 📱 **Responsive Design**  
+  Fully optimized for Desktop, Tablet, and Mobile Devices for seamless use across platforms.
+
+---
+
+## 🛠️ Technologies Used
+
+- **React 18**: A fast, component-based JavaScript library for building user interfaces.
+- **Vite**: A rapid development build tool that ensures fast loading times.
+- **Material-UI**: A design library providing stylish, responsive components.
+- **OpenWeather API**: Powers the app with accurate and real-time weather data.
+
+---
 
 
 ## Screenshots
