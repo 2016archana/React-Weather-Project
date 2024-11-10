@@ -30,13 +30,13 @@ A sleek and responsive weather application that provides users with up-to-date w
 
 Here are some screenshots of the weather app:
 
-### Screenshot 1
+### Search for City
 ![Search for City](images/weather_p1.png)
 
-### Screenshot 2
+### Weather Information Displayed
 ![Weather Information Displayed](images/weather_p2.png)
 
-### Screenshot 3
+### Invalid City Name
 ![Invalid City Name](images/weather_p3.png)
 
 
