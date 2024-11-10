@@ -14,6 +14,19 @@ A modern weather application built with React that provides real-time weather in
   - Weather Icon
 - **Responsive Design**: Fully optimized for mobile and desktop devices.
 
+## Screenshots
+
+Here are some screenshots of the weather app:
+
+### Screenshot 1
+![Screenshot 1](images/weather_p1.png)
+
+### Screenshot 2
+![Screenshot 2](images/weather_p2.png)
+
+### Screenshot 3
+![Screenshot 3](images/weather_p3.png)
+
 ## Installation Guide
 
 Follow these steps to run the project locally:
